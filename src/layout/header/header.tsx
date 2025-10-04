@@ -4,6 +4,7 @@ import { Search, Menu, X } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import Link from "next/link";
 
 const NAV_OPTIONS = [
   {
@@ -33,7 +34,7 @@ export default function Header() {
       <div className="max-w-[1440px] w-full mx-auto flex flex-col py-4 px-5 md:px-10 xl:px-20 border border-blue-500">
         {/* Logo */}
         <div className="flex items-center justify-between border-red-500 border">
-          <a href="/" className="flex items-center py-3 px-6">
+          <Link href="/" className="flex items-center py-3 px-6">
             <Image
               src="/logo.svg"
               alt="Asido Foundation Logo"
@@ -41,7 +42,7 @@ export default function Header() {
               height={44}
               priority
             />
-          </a>
+          </Link>
 
           <div className="flex items-center gap-4">
             <div className="flex lg:border-[1.5px] lg:border-blue-500 rounded-full w-8 h-8 justify-center items-center">
@@ -80,7 +81,7 @@ export default function Header() {
 
           <div>
             <span className="px-6 py-4 text-blue-500 font-bold text-base">
-              <a href="/">TAKE THE PLEDGE</a>
+              <Link href="/">TAKE THE PLEDGE</Link>
             </span>
             <button className="bg-cyan-500 outline-none rounded-lg text-white text-base w-[115px] h-[51px] font-bold cursor-pointer">
               DONATE
