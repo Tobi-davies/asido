@@ -90,6 +90,7 @@ export default function Timeline() {
 
           return (
             <div
+              key={index}
               className={`flex lg:justify-between w-full gap-5 w-full h-full
             ${index % 2 === 1 ? "lg:flex-row-reverse" : "flex-row"} `}
             >
