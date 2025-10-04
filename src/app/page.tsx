@@ -3,8 +3,6 @@ import Header from "@/layout/header/header";
 import Hero from "@/layout/hero/hero";
 import StayInformed from "@/layout/stay-informed/stay-informed";
 import Timeline from "@/layout/timeline/timeline";
-import Image from "next/image";
-// import styles from "./page.module.css";
 
 export default function Home() {
   return (
