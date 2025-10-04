@@ -9,11 +9,6 @@ const supportLinks = [
   "Book Campaign",
   "Unashamed Pledge",
 ];
-const contactInfo = {
-  address: "No 4, Awosika Street, Old Bodija, Ibadan.",
-  email: "asidofoundation@gmail.com",
-  phones: ["+2348180777458", "+2349028080416"],
-};
 
 export default function Footer() {
   return (

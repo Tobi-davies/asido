@@ -2,9 +2,7 @@ import Footer from "@/layout/footer/footer";
 import Header from "@/layout/header/header";
 import Hero from "@/layout/hero/hero";
 import StayInformed from "@/layout/stay-informed/stay-informed";
-import HowWeDoIt from "@/layout/testin/testin";
 import Timeline from "@/layout/timeline/timeline";
-import Xyz from "@/layout/xyz/xyz";
 import Image from "next/image";
 // import styles from "./page.module.css";
 
@@ -13,12 +11,10 @@ export default function Home() {
     <>
       <Header />
       <Hero />
-      <HowWeDoIt />
-      {/* <Xyz /> */}
       <Timeline />
       <StayInformed />
       <Footer />
-      <div>
+      {/* <div>
         <main>
           <Image
             src="/next.svg"
@@ -105,7 +101,7 @@ export default function Home() {
             Go to nextjs.org →
           </a>
         </footer>
-      </div>
+      </div> */}
     </>
   );
 }
